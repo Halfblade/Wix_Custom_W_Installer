@@ -7,6 +7,8 @@ namespace Wix_Custom_W_Installer
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            // To keep the app running 
+            Console.ReadLine();
         }
     }
 }

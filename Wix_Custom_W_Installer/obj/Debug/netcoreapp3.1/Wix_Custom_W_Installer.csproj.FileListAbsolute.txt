@@ -1,0 +1,14 @@
+C:\Users\leahm\source\repos\TicTacToe\Wix_Custom_W_Installer\Wix_Custom_W_Installer\bin\Debug\netcoreapp3.1\Wix_Custom_W_Installer.exe
+C:\Users\leahm\source\repos\TicTacToe\Wix_Custom_W_Installer\Wix_Custom_W_Installer\bin\Debug\netcoreapp3.1\Wix_Custom_W_Installer.deps.json
+C:\Users\leahm\source\repos\TicTacToe\Wix_Custom_W_Installer\Wix_Custom_W_Installer\bin\Debug\netcoreapp3.1\Wix_Custom_W_Installer.runtimeconfig.json
+C:\Users\leahm\source\repos\TicTacToe\Wix_Custom_W_Installer\Wix_Custom_W_Installer\bin\Debug\netcoreapp3.1\Wix_Custom_W_Installer.runtimeconfig.dev.json
+C:\Users\leahm\source\repos\TicTacToe\Wix_Custom_W_Installer\Wix_Custom_W_Installer\bin\Debug\netcoreapp3.1\Wix_Custom_W_Installer.dll
+C:\Users\leahm\source\repos\TicTacToe\Wix_Custom_W_Installer\Wix_Custom_W_Installer\bin\Debug\netcoreapp3.1\Wix_Custom_W_Installer.pdb
+C:\Users\leahm\source\repos\TicTacToe\Wix_Custom_W_Installer\Wix_Custom_W_Installer\obj\Debug\netcoreapp3.1\Wix_Custom_W_Installer.csproj.AssemblyReference.cache
+C:\Users\leahm\source\repos\TicTacToe\Wix_Custom_W_Installer\Wix_Custom_W_Installer\obj\Debug\netcoreapp3.1\Wix_Custom_W_Installer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leahm\source\repos\TicTacToe\Wix_Custom_W_Installer\Wix_Custom_W_Installer\obj\Debug\netcoreapp3.1\Wix_Custom_W_Installer.AssemblyInfoInputs.cache
+C:\Users\leahm\source\repos\TicTacToe\Wix_Custom_W_Installer\Wix_Custom_W_Installer\obj\Debug\netcoreapp3.1\Wix_Custom_W_Installer.AssemblyInfo.cs
+C:\Users\leahm\source\repos\TicTacToe\Wix_Custom_W_Installer\Wix_Custom_W_Installer\obj\Debug\netcoreapp3.1\Wix_Custom_W_Installer.csproj.CoreCompileInputs.cache
+C:\Users\leahm\source\repos\TicTacToe\Wix_Custom_W_Installer\Wix_Custom_W_Installer\obj\Debug\netcoreapp3.1\Wix_Custom_W_Installer.dll
+C:\Users\leahm\source\repos\TicTacToe\Wix_Custom_W_Installer\Wix_Custom_W_Installer\obj\Debug\netcoreapp3.1\Wix_Custom_W_Installer.pdb
+C:\Users\leahm\source\repos\TicTacToe\Wix_Custom_W_Installer\Wix_Custom_W_Installer\obj\Debug\netcoreapp3.1\Wix_Custom_W_Installer.genruntimeconfig.cache
