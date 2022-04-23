@@ -1,0 +1,6 @@
+C:\Users\leahm\source\repos\TicTacToe\Wix_Custom_W_Installer\Wix_Custom_W.Installer\bin\Debug\Wix_Custom_W.Installer.msi
+C:\Users\leahm\source\repos\TicTacToe\Wix_Custom_W_Installer\Wix_Custom_W.Installer\bin\Debug\Wix_Custom_W.Installer.wixpdb
+obj\Debug\Product.wixobj
+obj\Debug\Wix_Custom_W.Installer.wixproj.BindContentsFileListnull.txt
+obj\Debug\Wix_Custom_W.Installer.wixproj.BindOutputsFileListnull.txt
+obj\Debug\Wix_Custom_W.Installer.wixproj.BindBuiltOutputsFileListnull.txt
