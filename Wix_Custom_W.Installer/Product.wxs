@@ -2,7 +2,7 @@
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
   
   
-  <?if?>  
+  <?if $(var.Platform)=x64 ?>  
   <?define ProductCode = "{7C6370AD-9F31-4B0B-98A8-915D6F2C14EC}" ?>
   <?else?>
   <?define ProductCode = "{9C2168B9-3AE5-47EF-B13B-94722DD0B88D}" ?>
@@ -11,7 +11,7 @@
   
   
   
-	<Product Id="*" 
+	<Product Id="$(var.ProductCode)" 
            Name="Wix_Custom_W.Installer" 
            Language="1033" Version="1.0.0.0" 
            Manufacturer="HP Inc." 
