@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "GqEiD0ZaYBcrMa+XSm9QUJhdSj/nnKeY+6RjlSvOC5zmoL4nV2OKCVNaIOi20/PpkzUu5RfU/WERi4UyQpFIMA==",
+  "dgSpecHash": "i+cgKN8TTRHh2/2QbnRDFcpay1CPGaLxrt95aLWwK2xEix1jG9Gmtlr0k5LjEqCgtc/GMs0FyG3ECwjvX1lWPA==",
   "success": true,
   "projectFilePath": "C:\\Users\\leahm\\source\\repos\\TicTacToe\\Wix_Custom_W_Installer\\Wix_Custom_W_Installer\\Wix_Custom_W_Installer.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\leahm\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\3.1.23\\microsoft.netcore.app.runtime.win-x86.3.1.23.nupkg.sha512",
+    "C:\\Users\\leahm\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\3.1.23\\microsoft.windowsdesktop.app.runtime.win-x86.3.1.23.nupkg.sha512",
+    "C:\\Users\\leahm\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\3.1.23\\microsoft.aspnetcore.app.runtime.win-x86.3.1.23.nupkg.sha512"
+  ],
   "logs": []
 }
