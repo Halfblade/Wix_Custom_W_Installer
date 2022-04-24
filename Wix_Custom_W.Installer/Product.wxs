@@ -8,7 +8,7 @@
   <?define ProductCode = "{9C2168B9-3AE5-47EF-B13B-94722DD0B88D}" ?>
   <?endif?>
   
-  
+  <?define BuildVersion = 1.2.3?>
   
   
 	<Product Id="$(var.ProductCode)" 
