@@ -38,7 +38,7 @@
       EmbedCab="yes"
       />
 
-    <Icon Id="icon.ico" SourceFile="$(var.Wix_Custom_W_Installer.ProjectDir)"/>
+    <Icon Id="icon.ico" SourceFile="$(var.Wix_Custom_W_Installer.ProjectDir)\app.ico"/>
 
 		<Feature Id="ProductFeature" Title="Wix_Custom_W.Installer" Level="1">
       
