@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
   
-  
+  <!--Give product a unique ID per platform-->
   <?if $(var.Platform)=x64 ?>  
   <?define ProductCode = "{7C6370AD-9F31-4B0B-98A8-915D6F2C14EC}" ?>
   <?else?>
   <?define ProductCode = "{9C2168B9-3AE5-47EF-B13B-94722DD0B88D}" ?>
   <?endif?>
 
+  <!-- Fixed upgrade ID-->
   <?define UpgradeCode = "{36631466-B063-4FB2-9929-0B173AD3C18D}" ?>
   
   <?define BuildVersion = 1.2.3?>
   
-  
+  <!--Define main product-->
 	<Product Id="$(var.ProductCode)" 
            Name="!(loc.ProductName_$(var.Platform))" 
            Language="!(loc.Language)" 
@@ -20,7 +21,7 @@
            Manufacturer="!(loc.Company)" 
            UpgradeCode="$(var.UpgradeCode)">
     
-    
+    <!--Provide package details -->
 		<Package InstallerVersion="200" 
              Compressed="yes" 
              InstallScope="perMachine" 
@@ -32,17 +33,24 @@
              Languages="!(loc.Language)"
              />
 
+    <!--Downgrade error message-->
 		<MajorUpgrade DowngradeErrorMessage="!(loc.DowngradeErrorMessage)" />
+    
     
 		<MediaTemplate
       EmbedCab="yes"
       />
 
+    <!--Define main app icon-->
     <Icon Id="icon.ico" SourceFile="$(var.Wix_Custom_W_Installer.ProjectDir)\app.ico"/>
 
     <!--Use the icon.ico icon for this installer (shows up in Add/Remove programs)-->
-    <Property Id="APPPRODUCTICON">icon.ico</Property> 
-
+    <Property Id="APPPRODUCTICON">icon.ico</Property>
+    
+    <!--Help/Support website (shows up in Add/Remove programs)-->
+    <Property Id="APPURLINFORABOUT"> http://www.linkedin.com/in/jmoore23</Property>
+    
+    <!--Define components, shortcuts, files etc.. for installer-->
 		<Feature Id="ProductFeature" Title="Wix_Custom_W.Installer" Level="1">
       
 			<ComponentGroupRef Id="ProductComponents" />
