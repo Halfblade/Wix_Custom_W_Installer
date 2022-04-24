@@ -12,7 +12,7 @@
   
   
 	<Product Id="$(var.ProductCode)" 
-           Name="Wix_Custom_W.Installer" 
+           Name="!(loc.ProductName_$(var.Platform))" 
            Language="1033" Version="1.0.0.0" 
            Manufacturer="HP Inc." 
            UpgradeCode="2e434e8f-feb4-485c-b407-1d54253eee38">
