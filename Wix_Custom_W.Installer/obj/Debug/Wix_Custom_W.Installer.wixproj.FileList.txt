@@ -4,3 +4,5 @@ C:\Users\leahm\source\repos\TicTacToe\Wix_Custom_W_Installer\Wix_Custom_W.Instal
 obj\Debug\Wix_Custom_W.Installer.wixproj.BindContentsFileListen-us.txt
 obj\Debug\Wix_Custom_W.Installer.wixproj.BindOutputsFileListen-us.txt
 obj\Debug\Wix_Custom_W.Installer.wixproj.BindBuiltOutputsFileListen-us.txt
+obj\Debug\Components.wixobj
+obj\Debug\Directories.wixobj

@@ -49,6 +49,9 @@
     
     <!--Help/Support website (shows up in Add/Remove programs)-->
     <Property Id="APPURLINFORABOUT"> http://www.linkedin.com/in/jmoore23</Property>
+
+    <!--Create a basic UI for the installer-->
+    <UIRef Id ="WixUI_Minimal"/>
     
     <!--Define components, shortcuts, files etc.. for installer-->
 		<Feature Id="ProductFeature" Title="Wix_Custom_W.Installer" Level="1">
