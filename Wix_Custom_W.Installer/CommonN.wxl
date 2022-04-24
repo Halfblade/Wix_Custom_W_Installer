@@ -4,4 +4,7 @@
 	<String Id="ProductName_x86">Console App (32bit)</String>
   <String Id="ProductName_x64">Console App (64bit)</String>
   
+  
+  <String Id="Language">1033</String>
+  
 </WixLocalization>
