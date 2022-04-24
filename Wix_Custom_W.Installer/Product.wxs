@@ -38,6 +38,8 @@
       EmbedCab="yes"
       />
 
+    <Icon Id="icon.ico" SourceFile="$(var.Wix_Custom_W_Installer.ProjectDir)"/>
+
 		<Feature Id="ProductFeature" Title="Wix_Custom_W.Installer" Level="1">
       
 			<ComponentGroupRef Id="ProductComponents" />
@@ -46,13 +48,7 @@
     
 	</Product>
 
-	<Fragment>
-		<Directory Id="TARGETDIR" Name="SourceDir">
-			<Directory Id="ProgramFilesFolder">
-				<Directory Id="INSTALLFOLDER" Name="Wix_Custom_W.Installer" />
-			</Directory>
-		</Directory>
-	</Fragment>
+	
 
 	
 </Wix>
