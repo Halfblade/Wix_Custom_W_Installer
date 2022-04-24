@@ -54,7 +54,7 @@
     <UIRef Id ="WixUI_Minimal"/>
     
     <!--Change the installer UI Background and Banner -->
-    <WixVariable Id="WixUILicenseRtf" Value="$(var.ProjectDir)\Assets\License.bmp"/>
+    <WixVariable Id="WixUILicenseRtf" Value="$(var.ProjectDir)\Assets\License.rtf"/>
     <WixVariable Id="WixUIDialogBmp" Value="$(var.ProjectDir)\Assets\Background.bmp"/>
     <WixVariable Id="WixUIBannerBmp" Value="$(var.ProjectDir)\Assets\Banner.bmp"/>
     <!--Define components, shortcuts, files etc.. for installer-->
