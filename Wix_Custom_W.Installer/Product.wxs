@@ -7,6 +7,8 @@
   <?else?>
   <?define ProductCode = "{9C2168B9-3AE5-47EF-B13B-94722DD0B88D}" ?>
   <?endif?>
+
+  <?define UpgradeCode = "{36631466-B063-4FB2-9929-0B173AD3C18D}" ?>
   
   <?define BuildVersion = 1.2.3?>
   
@@ -14,9 +16,9 @@
 	<Product Id="$(var.ProductCode)" 
            Name="!(loc.ProductName_$(var.Platform))" 
            Language="!(loc.Language)" 
-           Version="1.0.0.0" 
-           Manufacturer="HP Inc." 
-           UpgradeCode="2e434e8f-feb4-485c-b407-1d54253eee38">
+           Version="$(var.BuildVersion)" 
+           Manufacturer="!(loc.Company)" 
+           UpgradeCode="$(var.UpgradeCode)">
 		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
 
 		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />

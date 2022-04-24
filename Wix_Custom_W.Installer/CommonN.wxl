@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WixLocalization Culture="en-us" xmlns="http://schemas.microsoft.com/wix/2006/localization">
+
+  <String Id="Company">JayMoore</String>
   
 	<String Id="ProductName_x86">Console App (32bit)</String>
   <String Id="ProductName_x64">Console App (64bit)</String>
