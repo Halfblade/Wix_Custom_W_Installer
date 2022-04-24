@@ -5,7 +5,11 @@
   
 	<String Id="ProductName_x86">Console App (32bit)</String>
   <String Id="ProductName_x64">Console App (64bit)</String>
-  
+
+
+  <String Id="Description">Describe product</String>
+  <String Id="Comments">Summerize important points on product</String>
+  <String Id="Keywords">dotnet,core,application,installer</String>
   
   <String Id="Language">1033</String>
   

@@ -1,2 +1,0 @@
-C:\Users\leahm\source\repos\TicTacToe\Wix_Custom_W_Installer\Wix_Custom_W.Installer\bin\Debug\Wix_Custom_W.Installer.msi
-C:\Users\leahm\source\repos\TicTacToe\Wix_Custom_W_Installer\Wix_Custom_W.Installer\bin\Debug\Wix_Custom_W.Installer.wixpdb

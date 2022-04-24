@@ -1,6 +1,2 @@
-obj\Debug\Product.wixobj
 C:\Users\leahm\source\repos\TicTacToe\Wix_Custom_W_Installer\Wix_Custom_W.Installer\bin\Debug\en-us\Wix_Custom_W.Installer.msi
 C:\Users\leahm\source\repos\TicTacToe\Wix_Custom_W_Installer\Wix_Custom_W.Installer\bin\Debug\en-us\Wix_Custom_W.Installer.wixpdb
-obj\Debug\Wix_Custom_W.Installer.wixproj.BindContentsFileListen-us.txt
-obj\Debug\Wix_Custom_W.Installer.wixproj.BindOutputsFileListen-us.txt
-obj\Debug\Wix_Custom_W.Installer.wixproj.BindBuiltOutputsFileListen-us.txt
