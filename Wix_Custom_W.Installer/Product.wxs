@@ -53,6 +53,9 @@
     <!--Create a basic UI for the installer-->
     <UIRef Id ="WixUI_Minimal"/>
     
+    <!--Change the installer UI Background and Banner -->
+    <WixVariable Id="WixUIDialogBmp" Value="$(var.ProjectDir)\Assets\Background.bmp"/>
+    <WixVariable Id="WixUIBannerBmp" Value="$(var.ProjectDir)\Assets\Banner.bmp"/>
     <!--Define components, shortcuts, files etc.. for installer-->
 		<Feature Id="ProductFeature" Title="Wix_Custom_W.Installer" Level="1">
       
