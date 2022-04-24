@@ -40,6 +40,9 @@
 
     <Icon Id="icon.ico" SourceFile="$(var.Wix_Custom_W_Installer.ProjectDir)\app.ico"/>
 
+    <!--Use the icon.ico icon for this installer (shows up in Add/Remove programs)-->
+    <Property Id="APPPRODUCTICON">icon.ico</Property> 
+
 		<Feature Id="ProductFeature" Title="Wix_Custom_W.Installer" Level="1">
       
 			<ComponentGroupRef Id="ProductComponents" />
