@@ -10,6 +10,8 @@
   <String Id="Description">Describe product</String>
   <String Id="Comments">Summerize important points on product</String>
   <String Id="Keywords">dotnet,core,application,installer</String>
+
+  <String Id="DowngradeErrorMessage">A newer version of ProductName is already installed</String>
   
   <String Id="Language">1033</String>
   
