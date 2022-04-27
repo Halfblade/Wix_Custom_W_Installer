@@ -5,6 +5,12 @@
     <!--Standard leave alone -->
     <Directory Id="TARGETDIR" Name="SourceDir">
 
+      <!--Start menu-->
+      <Directory Id="ProgramMenuFolder">
+        <Directory Id="ShortcutMenuFolderMenu" Name="!(loc.ProductFolderName)" />
+      </Directory>
+      
+      
       <?if $(var.Platform)=x64 ?>
       <!--Program files (64bit)folder-->
       <Directory Id="ProgramFiles64Folder">
