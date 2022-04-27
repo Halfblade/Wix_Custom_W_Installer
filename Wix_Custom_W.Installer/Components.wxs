@@ -3,6 +3,8 @@
   
   <Fragment>
     <ComponentGroup Id="ProductComponents" >
+
+      <ComponentRef />
       
     </ComponentGroup>
   </Fragment>
