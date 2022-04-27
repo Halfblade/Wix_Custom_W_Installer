@@ -2,11 +2,26 @@
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
 
   <Fragment>
+    <!--Standard leave alone -->
     <Directory Id="TARGETDIR" Name="SourceDir">
-      <Directory Id="ProgramFilesFolder">
-        <Directory Id="INSTALLFOLDER" Name="Wix_Custom_W.Installer" />
+
+      <?if $(var.Platform)=x64 ?>
+      <!--Program files (64bit)folder-->
+      <Directory Id="ProgramFiles64Folder">
+        <Directory Id="INSTALLFOLDER" Name="!(loc.ProductFolderName)" />
       </Directory>
+      <?else?>
+      <!--Program files (32bit)folder-->
+      <Directory Id="ProgramFilesFolder">
+        <Directory Id="INSTALLFOLDER" Name="!(loc.ProductFolderName)" />
+      </Directory>
+      <?endif?>
+      
+      
+      
+      
     </Directory>
+    
   </Fragment>
   
 </Wix>
