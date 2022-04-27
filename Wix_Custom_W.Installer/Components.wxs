@@ -10,9 +10,8 @@
 
     <DirectoryRef Id="INSTALLFOLDER" FileSource="..\Wix_Custom_W_Installer\bin\Debug\netcoreapp2.0\win-$(var.Platform)\publish\">
       <Component Id="TestFile" Guid="{974E00EA-4343-498A-870B-4C600167BFD3}">
-        <File Id="FileTestFile" Name="api-ms-win-core-console-l1-1-0.dll">
+        <File Id="FileTestFile" Name="api-ms-win-core-console-l1-1-0.dll" KeyPath="yes" />
           
-        </File>
       </Component>
     </DirectoryRef>
     
