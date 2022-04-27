@@ -14,9 +14,10 @@
         <File Id="FileTestFile" Name="api-ms-win-core-console-l1-1-0.dll" KeyPath="yes" />
 
         <!--Remove start menu items-->
-        <RemoveFolder Id="RemoveStartMenu" Directory="ShortcutMenuFolderMenu" On="install"/>
+        <RemoveFolder Id="RemoveStartMenu" Directory="ShortcutMenuFolderMenu" On="uninstall"/>
         
       </Component>
+      
     </DirectoryRef>
     
   </Fragment>
